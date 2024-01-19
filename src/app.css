@@ -1,3 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500;600;700;800;900');
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+    @apply font-sans;
+}
+
+h1, h2, h3, h4 {
+    @apply font-display; 
+}
+
+h1 {
+    @apply text-8xl max-md:text-6xl font-black;
+}

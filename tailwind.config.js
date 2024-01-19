@@ -7,7 +7,11 @@ export default {
         primary: '#FA5F71', 
         secondary: '#FFDEDE', 
         tertiary: '#B5EFE1', 
-      }
+      },
+      fontFamily: {
+        'sans': ['Hind', 'sans-serif'], 
+        'display': ['Fira Sans', 'sans-serif'],
+      },
     },
   },
   plugins: [],
