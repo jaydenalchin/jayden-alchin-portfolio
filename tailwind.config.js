@@ -9,7 +9,7 @@ export default {
         tertiary: '#B5EFE1', 
       },
       fontFamily: {
-        'sans': ['Hind', 'sans-serif'], 
+        'sans': ['Lato', 'sans-serif'], 
         'display': ['Fira Sans', 'sans-serif'],
       },
     },
