@@ -9,8 +9,8 @@ export default {
         tertiary: '#B5EFE1', 
       },
       fontFamily: {
-        'sans': ['Lato', 'Roboto', 'sans-serif'], 
-        'display': ['Fira Sans', 'Roboto', 'sans-serif'],
+        'sans': ['Hind', 'sans-serif'], 
+        'display': ['Fira Sans', 'sans-serif'],
       },
     },
   },
