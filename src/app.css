@@ -6,12 +6,34 @@ layer(base);
 @import 'tailwindcss';
 
 @theme {
+  --font-sans: Lato, sans-serif;
+  --font-display: Fira Sans, sans-serif;
+
   --color-primary: #fa5f71;
   --color-secondary: #ffdede;
   --color-tertiary: #b5efe1;
+  --color-cream: #FCF8F5;
+  --color-latte: #E9CEBB;
+  --color-melon: #FFA199;
+  --color-peach: #FFCA99;
+  --color-matcha: #C5D096;
 
-  --font-sans: Lato, sans-serif;
-  --font-display: Fira Sans, sans-serif;
+  --animate-blob: blob 6s ease-in-out infinite;
+
+  @keyframes blob {
+    0% {
+      transform: translate(0px, 0px) scale(1);
+    }
+    33% {
+      transform: translate(-40px, -40px) scale(1) skew(0.3rad);
+    }
+    66% {
+      transform: translate(-20px, -30px) scale(0.9) skew(-0.5rad);
+    }
+    100% {
+      transform: translate(0px, 0px) scale(1);
+    }
+  }
 }
 
 /*
