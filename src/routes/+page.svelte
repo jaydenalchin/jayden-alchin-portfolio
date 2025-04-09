@@ -10,5 +10,5 @@
             In Development
         </div>
     </header>
-    <div class="absolute w-3/5 h-1/5 bottom-30 md:bottom-40 md:w-3/5 md:h-2/4 bg-latte rounded-[20%_80%_40%_60%/25%_75%_25%_75%] animate-blob"></div>
+    <div class="absolute w-3/5 h-1/5 bottom-30 md:bottom-40 md:w-3/5 md:h-2/4 bg-melon rounded-[20%_80%_40%_60%/25%_75%_25%_75%] animate-blob"></div>
 </section>
