@@ -18,14 +18,14 @@ layer(base);
   --color-peach: #FFCA99;
   --color-matcha: #C5D096;
 
-  --animate-blob: blob 6s ease-in-out infinite;
+  --animate-blob: blob 4s cubic-bezier(0.77, 0, 0.175, 1) infinite;
 
   @keyframes blob {
     0% {
       transform: translate(0px, 0px) scale(1);
     }
     33% {
-      transform: translate(-40px, -40px) scale(1) skew(0.3rad);
+      transform: translate(20px, -40px) scale(1.2) rotate(-5deg) skew(-0.7rad);
     }
     66% {
       transform: translate(-20px, -30px) scale(0.9) skew(-0.5rad);
